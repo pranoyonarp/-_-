@@ -1,4 +1,4 @@
-#This is a BODY MASS INDEX(BMI) calculator
+#BODY MASS INDEX(BMI) calculator
 def bm (a):
       while a!=0:
         print("enter your weight in kilogram")
