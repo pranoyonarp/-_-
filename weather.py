@@ -6,7 +6,6 @@ city_name = input("Enter city name : ")
 complete_url = base_url + "q=" + city_name + "&APPID=" + api_key
 response = requests.get(complete_url)
 data=response.json()
-#print(data)
 print(data['weather'][0]['main'])
 print(data['main']['humidity'])
 print(data['main']['temp'])
