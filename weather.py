@@ -1,4 +1,4 @@
-#COMMAND LINE WEATHER APP USING WEATHER API(OpenWeatherMapAPI) 
+#COMMAND LINE WEATHER APP USING WEATHER API(OpenWeatherMapAPI)
 import requests, json
 api_key = "e4b9b8de52a23e92687fc7d7c4504b60"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
